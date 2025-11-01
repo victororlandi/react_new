@@ -11,3 +11,84 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.button{
+  padding-inline: 5px;
+}
+
+.contador{
+  display: flex;
+  flex-direction: column;
+  padding-inline: 30px;
+}
+
+.contagem-total{
+  border-style: solid;
+  border-color: rgb(139, 95, 95);
+  border-radius: 15px;
+  width: 350px;
+  height: 380px;
+  margin-left: 80px;
+  background-color: rgb(255, 255, 255);
+}
+
+.total{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.numero-total{
+  border-style: solid;
+  border-color: rgb(226, 217, 217);
+  border-radius: 7px;
+  margin: 5px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contadores{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.resultado{
+  border-style: solid;
+  border-color: rgb(226, 217, 217);
+  border-radius: 7px;
+  margin: 5px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.contador-homem{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contador-mulher{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
